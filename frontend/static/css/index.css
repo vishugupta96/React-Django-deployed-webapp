@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: "Playfair Display", serif;
+}
+.center {
+    margin-left: 12%;
+    padding: 0%;
+  }
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right,#0e4374,#175b82);
+    padding:0 !important;
+
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color:#fff !important;
+    font-weight: 600;
+    float:right;
+    text-align: left;
+}
+.fa-bars
+{
+    color:#fff;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline:none !important
+}
+#banner{
+    background-image: linear-gradient(to right,#0e4374,#175b82);
+    color: #fff;
+    padding-top: 2%;
+}
+.project-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px ;
+}
+mark {
+    color: rgb(33, 128, 74);
+}
+.ListItem{
+    font-size: 20px;
+    font-weight: 40;
+    margin-top: 8px ;
+    color: rgb(26, 100, 58);
+
+}
+.flight-text{
+    font-size: 30px;
+    font-weight: 50;
+    margin-top: 10px ;
+    color : rgb(26, 100, 58);
+    
+}
+.review-text{
+    font-size: 30px;
+    font-weight: 50;
+    margin-top: 10px ;
+    color:rgb(26, 100, 58);
+}
+.review-head{
+    font-size:30px;
+    font-weight:50;
+    margin-top: 10px;
+    color:rgb(26, 100, 58);
+}
+.reviews{
+    font-size: 20px;
+    font-weight: 10;
+    margin-top: 15px;
+}
+.flights ul{
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+.tt{
+    color : white
+}
+.home-text{    font-size:20px;
+    font-weight:10;
+    margin-top: 10px;}

@@ -1,0 +1,79 @@
+
+{% extends "base.html" %}
+
+
+{% block style %}
+<style>
+
+
+    html, body {
+        height: 100%;
+        font-family: "Playfair Display", serif;
+    }
+
+    #nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right,#1771ba,#178282);
+    padding:0 !important;
+
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color:#fff !important;
+    font-weight: 600;
+    float:right;
+    text-align: left;
+}
+.fa-bars
+{
+    color:#fff;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline:none !important
+}
+
+    .auth-box {
+        border: 3px solid rgb(23, 126, 211);
+        border-radius: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        width: 600px;
+        margin: auto;
+    }
+
+    .login-form-container {
+        width: 300px;
+        margin: auto;
+    }
+
+    .registration-form-container {
+        width: 400px;
+        margin: auto;
+    }
+
+    .outer-area {
+        margin-top: 100px;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="outer-area">
+    <div class="auth-box text-center">
+        {% block auth %}
+        {% endblock %}
+    </div>
+</div>
+{% endblock %}
